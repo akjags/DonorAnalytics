@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 import urllib
-import csv
 
 def get_house_value(address, csz):
 	#This method returns a tuple (currValue, soldValue)
