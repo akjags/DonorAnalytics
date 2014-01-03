@@ -24,11 +24,11 @@ def get_house_value(address, csz):
 			soldDate = child.text
 	return currValue, soldValue, soldDate
 
-f = open('donor_data2.csv', 'r')
-output = open('donor_features2.csv', 'w')
+f = open('Data/donor_data.csv', 'r')
+output = open('Data/donor_features.csv', 'w')
 donations = f.readlines()[0].split('\r')
 donations.pop(0)
-output.write("Name, Address, City, State, Donation Amount, Current House Price, Price House was Sold At, Date House was Sold  \n")
+output.write("Name, Address, City, State, Donation Amount, Current House Price, Price House was Sold At, Date House was Sold, Data Set \n")
 for line in donations:
 	elements = line.strip().split(',')
 	name = elements[1]
@@ -37,7 +37,7 @@ for line in donations:
 	csz = elements[10] + ", " + elements[11]
 	currVal,soldVal,soldDate = get_house_value(addr, csz)
 	out = name + "," + addr + "," + csz + "," + amount + ","
-	out += currVal + "," + soldVal + "," + soldDate + "\n"
+	out += currVal + "," + soldVal + "," + soldDate + ",1" + "\n"
 	output.write(out)
 f.close()
 output.close()

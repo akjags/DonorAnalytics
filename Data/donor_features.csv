@@ -1,65 +1,65 @@
-Name, Address, City, State, Donation Amount, Current House Price, Price House was Sold At, Date House was Sold  
-Venkatram Nalla,1 Colonial Ct,Middlebury, CT,50,356257,,
-venkata akkala,10103 Springfield Ridge Dr,katy, TX,100,193398,,11/21/2012
-ramesh nimmala,10484 henbury street,orlando, FL,50,,391400,10/26/2012
-OMAR KHAN,12657 Alcosta Blvd,San Ramon, CA,500,904394,310000,04/13/1995
-Ajit Gaddam,1269 LAKESIDE DRIVE,Sunnyvale, CA,150,8735531,,
-Patricia Singer,13250 Pierce Road,Saratoga, CA,50,3281768,2900000,12/04/2007
-Srikanth Chillappagari,1331 Stone Canyon Ct,PLEASANTON, CA,50,1633018,1474000,02/28/2007
-Sridhar Kasam,152 Rabbit Ct,Fremont, CA,250,895230,210000,05/31/1988
-podditur Reddy,20 Charlotte Dtive,Lebanon, NJ,100,388799,145750,06/14/1985
-Naveena Salla,20064 Northwind Sq,Cupertino, CA,100,734396,647000,11/20/2007
-Madhavi Kasa,2225 encino mist,san antonio, TX,20,,,
-Raghavendar Thirumala,2228 Pinard St,Milpitas, CA,100,774132,839000,04/19/2007
-Vinod Koppurapu,253 Scotia Ct,Fremont, CA,100,1361486,1150000,08/12/2009
-Anand Kumar,2739 Milani Ave,Pleasanton, CA,250,826222,363000,08/05/1994
-Srikala Produturi,2799 Milani Avenue,Pleasanton, CA,50,739209,750000,01/04/2007
-Srikala Produturi,2799 Milani Avenue,Pleasanton, CA,50,739209,750000,01/04/2007
-Theresa Fellmann,2846 Siena Road,Livermore, CA,50,1065256,,
-Surekha Reddy,2913 Bellwind Circle,Rockledge, FL,50,1179404,250000,06/30/2006
-Paul Bever,3 meadow Lane,Atherton, CA,50,3390272,510000,03/14/1986
-Haritha Gujjula,336 ashleigh walk pkwy,suwanee, GA,200,433000,346300,03/29/2011
-Srinivasa Donthula,3547 bent hollow,san antonio, TX,100,,,
-Rachita Jain,3620 Whitworth Dr,Dublin, CA,100,436345,427500,06/26/2008
-Puneet Kumar,3762 dryden rd,fremont, CA,25,609625,510000,02/06/2013
-Ramchandra Vemula,4 Hawksbury Green,Caroline Springs, Victoria,100,,,
-Indira Reddy Kasula,4106 Station Circle,Dedham, MA,100,,,
-Steven Allred,41230 Chiltern Drive,Fremont, CA,100,1137498,320000,03/15/1995
-Vikranth Gaddam,417 Basil Ct,El Dorado Hills, CA,200,343165,510000,07/01/2009
-Dan Loverro,41762 Olympus Ave,Fremont, CA,25,1236629,675000,03/07/2000
-Mudassir Maredia,4200 Bay Street #255,Fremont, CA,100,,,
-Jeffrey Wofford,47000 Warm Springs Blvd,Fremont, CA,50,,,
-sharanya vemula,500 broadway,malden, MA,25,260564,,
-rama patloola,5050 Hacienda Dr Apt 332,Dublin, CA,50,,,
-Ajay Kambath,6967 Emerson ln,San Ramon, CA,100,1199149,1032500,08/14/2008
-srinivas Kasam,"inchem laboratories pl,madhur ngr, S.R ngr",100,,,
-Santhosh Gandhari,,, ,250,,, ,
-Reddy Donthi,,, ,250,,, ,
-dheeraj kunta,,, ,30,,, ,
-Yugandhar Reddy,,, ,100,,, ,
-Honest Ally,,, ,50,,, ,
-Sudheer Ponnamaneni,,, ,200,,, ,
-Adarsh Katyal,,, ,200,,, ,
-Aditya Reddy,,, ,21,,, ,
-Monica Musuvathi,,, ,50,,, ,
-chitra rao,,, ,10,,, ,
-Vishnu Mettapalli,,, ,100,,, ,
-Indira Rani,,, ,121,,, ,
-mahesh Pabba,,, ,25,,, ,
-keerthi gunna,,, ,50,,, ,
-Srinivas Manikonda,,, ,100,,, ,
-Srirama Rao Koppuru,,, ,50,,, ,
-Barbara Sandell,,, ,50,,, ,
-PROJECT MANAGEMENT CORPORATION - PRACTIDEV,,, ,50,,, ,
-Kiran Singh,,, ,250,,, ,
-Ismail Mahomed,,, ,100,,, ,
-Krishna gorjilla,,, ,198,,, ,
-Pavan Muppidi,,, ,25,,, ,
-dheeraj kunta,,, ,20,,, ,
-Sunil Ayrukuzhiyil,,, ,10,,, ,
-preethi baddam,,, ,10,,, ,
-krishna cheeti,,, ,100,,, ,
-ramya reddy,,, ,100,,, ,
-Bao ha,,, ,50,,, ,
-Santosh Addagulla,,, ,35,,, ,
-Ahmed Adil,,, ,20,,, ,
+Name, Address, City, State, Donation Amount, Current House Price, Price House was Sold At, Date House was Sold, Data Set 
+Venkatram Nalla,1 Colonial Ct,Middlebury, CT,50,355867,,,1
+venkata akkala,10103 Springfield Ridge Dr,katy, TX,100,193252,,11/21/2012,1
+ramesh nimmala,10484 henbury street,orlando, FL,50,,391400,10/26/2012,1
+OMAR KHAN,12657 Alcosta Blvd,San Ramon, CA,500,903439,310000,04/13/1995,1
+Ajit Gaddam,1269 LAKESIDE DRIVE,Sunnyvale, CA,150,8507866,,,1
+Patricia Singer,13250 Pierce Road,Saratoga, CA,50,3283664,2900000,12/04/2007,1
+Srikanth Chillappagari,1331 Stone Canyon Ct,PLEASANTON, CA,50,1631384,1474000,02/28/2007,1
+Sridhar Kasam,152 Rabbit Ct,Fremont, CA,250,895324,210000,05/31/1988,1
+podditur Reddy,20 Charlotte Dtive,Lebanon, NJ,100,388832,145750,06/14/1985,1
+Naveena Salla,20064 Northwind Sq,Cupertino, CA,100,735418,647000,11/20/2007,1
+Madhavi Kasa,2225 encino mist,san antonio, TX,20,,,,1
+Raghavendar Thirumala,2228 Pinard St,Milpitas, CA,100,773528,839000,04/19/2007,1
+Vinod Koppurapu,253 Scotia Ct,Fremont, CA,100,1361909,1150000,08/12/2009,1
+Anand Kumar,2739 Milani Ave,Pleasanton, CA,250,826019,363000,08/05/1994,1
+Srikala Produturi,2799 Milani Avenue,Pleasanton, CA,50,739014,750000,01/04/2007,1
+Srikala Produturi,2799 Milani Avenue,Pleasanton, CA,50,739014,750000,01/04/2007,1
+Theresa Fellmann,2846 Siena Road,Livermore, CA,50,1065384,,,1
+Surekha Reddy,2913 Bellwind Circle,Rockledge, FL,50,1181429,250000,06/30/2006,1
+Paul Bever,3 meadow Lane,Atherton, CA,50,3391896,510000,03/14/1986,1
+Haritha Gujjula,336 ashleigh walk pkwy,suwanee, GA,200,432945,346300,03/29/2011,1
+Srinivasa Donthula,3547 bent hollow,san antonio, TX,100,,,,1
+Rachita Jain,3620 Whitworth Dr,Dublin, CA,100,435916,427500,06/26/2008,1
+Puneet Kumar,3762 dryden rd,fremont, CA,25,609395,510000,02/06/2013,1
+Ramchandra Vemula,4 Hawksbury Green,Caroline Springs, Victoria,100,,,,1
+Indira Reddy Kasula,4106 Station Circle,Dedham, MA,100,,,,1
+Steven Allred,41230 Chiltern Drive,Fremont, CA,100,1139633,320000,03/15/1995,1
+Vikranth Gaddam,417 Basil Ct,El Dorado Hills, CA,200,343004,510000,07/01/2009,1
+Dan Loverro,41762 Olympus Ave,Fremont, CA,25,1236056,675000,03/07/2000,1
+Mudassir Maredia,4200 Bay Street #255,Fremont, CA,100,,,,1
+Jeffrey Wofford,47000 Warm Springs Blvd,Fremont, CA,50,,,,1
+sharanya vemula,500 broadway,malden, MA,25,259902,,,1
+rama patloola,5050 Hacienda Dr Apt 332,Dublin, CA,50,,,,1
+Ajay Kambath,6967 Emerson ln,San Ramon, CA,100,1198330,1032500,08/14/2008,1
+srinivas Kasam,"inchem laboratories pl,madhur ngr, S.R ngr",100,,,,1
+Santhosh Gandhari,,, ,250,,, ,,1
+Reddy Donthi,,, ,250,,, ,,1
+dheeraj kunta,,, ,30,,, ,,1
+Yugandhar Reddy,,, ,100,,, ,,1
+Honest Ally,,, ,50,,, ,,1
+Sudheer Ponnamaneni,,, ,200,,, ,,1
+Adarsh Katyal,,, ,200,,, ,,1
+Aditya Reddy,,, ,21,,, ,,1
+Monica Musuvathi,,, ,50,,, ,,1
+chitra rao,,, ,10,,, ,,1
+Vishnu Mettapalli,,, ,100,,, ,,1
+Indira Rani,,, ,121,,, ,,1
+mahesh Pabba,,, ,25,,, ,,1
+keerthi gunna,,, ,50,,, ,,1
+Srinivas Manikonda,,, ,100,,, ,,1
+Srirama Rao Koppuru,,, ,50,,, ,,1
+Barbara Sandell,,, ,50,,, ,,1
+PROJECT MANAGEMENT CORPORATION - PRACTIDEV,,, ,50,,, ,,1
+Kiran Singh,,, ,250,,, ,,1
+Ismail Mahomed,,, ,100,,, ,,1
+Krishna gorjilla,,, ,198,,, ,,1
+Pavan Muppidi,,, ,25,,, ,,1
+dheeraj kunta,,, ,20,,, ,,1
+Sunil Ayrukuzhiyil,,, ,10,,, ,,1
+preethi baddam,,, ,10,,, ,,1
+krishna cheeti,,, ,100,,, ,,1
+ramya reddy,,, ,100,,, ,,1
+Bao ha,,, ,50,,, ,,1
+Santosh Addagulla,,, ,35,,, ,,1
+Ahmed Adil,,, ,20,,, ,,1
