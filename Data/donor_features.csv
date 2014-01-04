@@ -1,65 +1,129 @@
-Name, Address, City, State, Donation Amount, Current House Price, Price House was Sold At, Date House was Sold, Data Set 
-Venkatram Nalla,1 Colonial Ct,Middlebury, CT,50,355867,,,1
-venkata akkala,10103 Springfield Ridge Dr,katy, TX,100,193252,,11/21/2012,1
-ramesh nimmala,10484 henbury street,orlando, FL,50,,391400,10/26/2012,1
-OMAR KHAN,12657 Alcosta Blvd,San Ramon, CA,500,903439,310000,04/13/1995,1
-Ajit Gaddam,1269 LAKESIDE DRIVE,Sunnyvale, CA,150,8507866,,,1
-Patricia Singer,13250 Pierce Road,Saratoga, CA,50,3283664,2900000,12/04/2007,1
-Srikanth Chillappagari,1331 Stone Canyon Ct,PLEASANTON, CA,50,1631384,1474000,02/28/2007,1
-Sridhar Kasam,152 Rabbit Ct,Fremont, CA,250,895324,210000,05/31/1988,1
-podditur Reddy,20 Charlotte Dtive,Lebanon, NJ,100,388832,145750,06/14/1985,1
-Naveena Salla,20064 Northwind Sq,Cupertino, CA,100,735418,647000,11/20/2007,1
-Madhavi Kasa,2225 encino mist,san antonio, TX,20,,,,1
-Raghavendar Thirumala,2228 Pinard St,Milpitas, CA,100,773528,839000,04/19/2007,1
-Vinod Koppurapu,253 Scotia Ct,Fremont, CA,100,1361909,1150000,08/12/2009,1
-Anand Kumar,2739 Milani Ave,Pleasanton, CA,250,826019,363000,08/05/1994,1
-Srikala Produturi,2799 Milani Avenue,Pleasanton, CA,50,739014,750000,01/04/2007,1
-Srikala Produturi,2799 Milani Avenue,Pleasanton, CA,50,739014,750000,01/04/2007,1
-Theresa Fellmann,2846 Siena Road,Livermore, CA,50,1065384,,,1
-Surekha Reddy,2913 Bellwind Circle,Rockledge, FL,50,1181429,250000,06/30/2006,1
-Paul Bever,3 meadow Lane,Atherton, CA,50,3391896,510000,03/14/1986,1
-Haritha Gujjula,336 ashleigh walk pkwy,suwanee, GA,200,432945,346300,03/29/2011,1
-Srinivasa Donthula,3547 bent hollow,san antonio, TX,100,,,,1
-Rachita Jain,3620 Whitworth Dr,Dublin, CA,100,435916,427500,06/26/2008,1
-Puneet Kumar,3762 dryden rd,fremont, CA,25,609395,510000,02/06/2013,1
-Ramchandra Vemula,4 Hawksbury Green,Caroline Springs, Victoria,100,,,,1
-Indira Reddy Kasula,4106 Station Circle,Dedham, MA,100,,,,1
-Steven Allred,41230 Chiltern Drive,Fremont, CA,100,1139633,320000,03/15/1995,1
-Vikranth Gaddam,417 Basil Ct,El Dorado Hills, CA,200,343004,510000,07/01/2009,1
-Dan Loverro,41762 Olympus Ave,Fremont, CA,25,1236056,675000,03/07/2000,1
-Mudassir Maredia,4200 Bay Street #255,Fremont, CA,100,,,,1
-Jeffrey Wofford,47000 Warm Springs Blvd,Fremont, CA,50,,,,1
-sharanya vemula,500 broadway,malden, MA,25,259902,,,1
-rama patloola,5050 Hacienda Dr Apt 332,Dublin, CA,50,,,,1
-Ajay Kambath,6967 Emerson ln,San Ramon, CA,100,1198330,1032500,08/14/2008,1
-srinivas Kasam,"inchem laboratories pl,madhur ngr, S.R ngr",100,,,,1
-Santhosh Gandhari,,, ,250,,, ,,1
-Reddy Donthi,,, ,250,,, ,,1
-dheeraj kunta,,, ,30,,, ,,1
-Yugandhar Reddy,,, ,100,,, ,,1
-Honest Ally,,, ,50,,, ,,1
-Sudheer Ponnamaneni,,, ,200,,, ,,1
-Adarsh Katyal,,, ,200,,, ,,1
-Aditya Reddy,,, ,21,,, ,,1
-Monica Musuvathi,,, ,50,,, ,,1
-chitra rao,,, ,10,,, ,,1
-Vishnu Mettapalli,,, ,100,,, ,,1
-Indira Rani,,, ,121,,, ,,1
-mahesh Pabba,,, ,25,,, ,,1
-keerthi gunna,,, ,50,,, ,,1
-Srinivas Manikonda,,, ,100,,, ,,1
-Srirama Rao Koppuru,,, ,50,,, ,,1
-Barbara Sandell,,, ,50,,, ,,1
-PROJECT MANAGEMENT CORPORATION - PRACTIDEV,,, ,50,,, ,,1
-Kiran Singh,,, ,250,,, ,,1
-Ismail Mahomed,,, ,100,,, ,,1
-Krishna gorjilla,,, ,198,,, ,,1
-Pavan Muppidi,,, ,25,,, ,,1
-dheeraj kunta,,, ,20,,, ,,1
-Sunil Ayrukuzhiyil,,, ,10,,, ,,1
-preethi baddam,,, ,10,,, ,,1
-krishna cheeti,,, ,100,,, ,,1
-ramya reddy,,, ,100,,, ,,1
-Bao ha,,, ,50,,, ,,1
-Santosh Addagulla,,, ,35,,, ,,1
-Ahmed Adil,,, ,20,,, ,,1
+id, city, state, donation, house_price, house_sold_at, years_sold
+34, san jose, CA, 30, 937692, 720000, 10
+35, Tampa, FL, 30, , , 0
+36, Acton, MA, 30, 474064, 409900, 10
+37, Rancho Santa Margarita, CA, 360, 630734, 630734, 0
+38, Rancho Santa Margarita, CA, 360, , , 0
+39, Santa Clara, CA, 90, , , 0
+40, Cupertino, CA, 60, , , 0
+41, Cupertino, CA, 60, , , 0
+42, Cupertino, CA, 360, , , 0
+43, Cupertino, CA, 740, 2489449, 575000, 15
+44, Cupertino, CA, 90, 866242, 579000, 4
+45, Cupertino, CA, 30, , , 0
+46, hercules, CA, 30, 416937, 400000, 11
+47, sunnyvale, CA, 60, , , 0
+48, sunnyvale, CA, 30, 1408797, 682000, 10
+49, Sunnyvale, CA, 30, , , 0
+50, west babylon, NY, 60, , , 0
+51, austin, TX, 30, 234747, 234747, 0
+52, Foster City, CA, 30, 683211, 570000, 3
+53, Edison, NJ, 30, , , 0
+54, Tewksbury, MA, 60, , , 0
+55, Pittsburgh, PA, 90, , , 0
+56, San Diego, CA, 360, 472216, 535000, 9
+57, CUPERTINO, CA, 116, 1535624, 1278000, 1
+58, Corvallis, OR, 60, , , 0
+59, Sunnyvale, CA, 60, 1394841, 1300000, 0
+60, Los Gatos, CA, 60, 1241926, 1060000, 2
+61, Heathrow, FL, 30, , , 0
+62, Mountain View, CA, 90, 717817, 478000, 11
+63, Sunnyvale, CA, 30, 857995, 550000, 4
+64, Sunnyvale, CA, 360, , , 0
+65, Sunnyvale, CA, 60, , , 0
+66, los altos, CA, 60, 4400231, 1400000, 16
+67, Mountain View, CA, 30, 891051, 891051, 0
+68, sunnyvale, CA, 60, , , 0
+69, San Ramon, CA, 30, 1004764, 760000, 4
+70, Jersey City, NJ, 30, , , 0
+71, Beaverton, OR, 30, , , 0
+72, walnut, CA, 90, 1409851, 462000, 16
+73, San Diego, CA, 30, 707158, 525500, 2
+74, Belle Mead, NJ, 90, 785989, 504000, 11
+75, Tucson, AZ, 30, 85828, 86000, 3
+76, Plainsboro, NJ, 60, , , 0
+77, Union city, CA, 60, , , 0
+78, SARATOGA, CA, 30, 2155557, 1753000, 3
+79, Winnetka, CA, 360, 423658, 286000, 10
+80, cupertino, CA, 30, , , 0
+81, Saratoga, CA, 100, , , 0
+82, Cupertino, CA, 60, 1553459, 879000, 11
+83, Cupertino, CA, 60, , , 0
+84, Ramsey, NJ, 30, 407401, 407401, 0
+85, san francisco, CA, 360, 1526183, 1526183, 0
+86, Dayton, NJ, 30, 641510, 677000, 7
+87, Santa Clara, CA, 30, 355313, 360000, 8
+88, cupertino, CA, 90, , , 0
+89, CORONA, CA, 30, 475539, 247000, 15
+90, Fremont, CA, 30, 1975088, 1365000, 2
+91, Laguna Niguel, CA, 30, 893429, 484500, 13
+92, Castro Valley, CA, 30, , , 0
+93, Castro Valley, CA, 30, , , 0
+94, san jose, CA, 30, 875462, 658000, 13
+95, San Jose, CA, 30, 779124, 779124, 0
+96, Fremont, CA, 360, 1430651, 1452000, 7
+97, San Jose, CA, 30, , , 0
+98, San Jose, CA, 31, 636346, 206000, 21
+99, fremont, CA, 60, , , 0
+100, Aurora, IL, 30, , , 0
+101, fremont, CA, 30, , , 0
+102, Fremont, CA, 60, , , 0
+103, San Jose, CA, 5, , , 0
+104, Fremont, CA, 30, , , 0
+105, San Jose, CA, 100, , , 0
+106, santa clara, CA, 60, 6232182, 6232182, 0
+107, Milpitas, CA, 30, , , 0
+108, Fremont, CA, 30, 434647, 329000, 13
+109, Fremont, CA, 222, , , 0
+110, MANALAPAN, NJ, 90, 430186, 405000, 3
+111, NEW YORK, NY, 360, , , 0
+112, San Mateo, CA, 90, 1316633, 1050000, 5
+113, Prospect Heights, IL, 90, , , 0
+114, San Jose, CA, 150, , , 0
+115, Simi Valley, CA, 90, , , 0
+116, Tampa, FL, 60, 323411, 204000, 10
+117, plainsboro, NJ, 30, , , 0
+118, plainsboro, NJ, 50, , , 0
+119, Fremont, CA, 30, , , 0
+120, Concord, CA, 30, 474136, 455000, 10
+121, San Jose, CA, 41, 439837, 405000, 12
+122, San Jose, CA, 60, , , 0
+123, santa clara, CA, 60, 748346, 690000, 6
+124, San Jose, CA, 20, 461624, 552500, 7
+125, Fremont, CA, 90, , , 0
+126, Fremont, CA, 30, , , 0
+127, Franklin, WI, 360, , , 0
+128, Stockton, CA, 90, 752960, 691000, 12
+129, Turlock, CA, 60, , , 0
+130, Palo Alto, CA, 300, , , 0
+131, mountain house, CA, 30, 407708, 300000, 1
+132, Dublin, CA, 30, , , 0
+133, San Jose, CA, 60, , , 0
+134, San Ramon, CA, 50, , , 0
+135, Cupertino, CA, 30, , , 0
+136, Plano, TX, 30, , , 0
+137, MADISON, WI, 60, , , 0
+138, San Jose, CA, 90, , , 0
+139, Sunnyvale, CA, 90, , , 0
+140, Campbell, CA, 30, , , 0
+141, Cupertino, CA, 30, , , 0
+142, San Ramon, CA, 60, , , 0
+143, Dublin, CA, 30, , , 0
+144, Dublin, CA, 50, , , 0
+145, Dublin, CA, 75, , , 0
+146, Dublin, CA, 75, , , 0
+147, San Jose, CA, 30, 707837, 501000, 11
+148, San Jose, CA, 60, , , 0
+149, San Jose, CA, 30, 707837, 501000, 11
+150, Foster City, CA, 60, , , 0
+151, kendall park, NJ, 30, 353100, 381000, 4
+152, Orangevale, CA, 90, , , 0
+153, Hillsborough, NJ, 90, , , 0
+154, SUNNYVALE, CA, 30, , , 0
+155, Oklahoma City, OK, 30, , , 0
+156, Cobham, Surrey, 150, , , 0
+157, San Jose, CA, 90, , , 0
+158, K.K.Nagar,  chennai-600078, 60, , , 0
+159, BSB, BRUNEI DARUSSALAM, 90, , , 0
+160, BSB, Brunei, 120, , , 0
+161, BSB, Brunei, 90, , , 0
