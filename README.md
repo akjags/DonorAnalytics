@@ -1,3 +1,8 @@
+Current state:
+
+- Added script that does classification (3 donation amount classes) using an SVM.
+- 99.9% Training Set accuracy
+
 Build a model to predict how much an individual is willing to donate to a given organization.
 Features to look at:
 - age of individual
