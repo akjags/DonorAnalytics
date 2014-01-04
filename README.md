@@ -6,7 +6,8 @@ Current state:
   - E.g. on average, 6/10 samples are classified correcly
   - Model is shaky right now
 - Need more data to train on and more features
-  - Historical donation data would be effective
+  - User age
+  - User historical donation data
   
 Build a model to predict how much an individual is willing to donate to a given organization.
 Features to look at:
