@@ -1,106 +1,106 @@
 id, city, state, donation, house_price, house_sold_at, years_sold
-34, san jose, 6, 30, , , 0
-35, Tampa, 11, 30, , , 0
-36, Acton, 35, 30, , , 0
-37, Rancho Santa Margarita, 6, 360, , , 0
+34, san jose, 6, 30, 937692, 720000, 10
+35, Tampa, 11, 30, 230386, 205000, 5
+36, Acton, 35, 30, 474064, 409900, 10
+37, Rancho Santa Margarita, 6, 360, 630734, 630734, 0
 38, Rancho Santa Margarita, 6, 360, , , 0
 39, Santa Clara, 6, 90, , , 0
-40, Cupertino, 6, 60, , , 0
+40, Cupertino, 6, 60, 1660333, 780000, 11
 41, Cupertino, 6, 60, , , 0
 42, Cupertino, 6, 360, , , 0
 43, Cupertino, 6, 740, , , 0
 44, Cupertino, 6, 90, , , 0
-45, Cupertino, 6, 30, , , 0
+45, Cupertino, 6, 30, 1325486, 680000, 13
 46, hercules, 6, 30, , , 0
 47, sunnyvale, 6, 60, , , 0
-48, sunnyvale, 6, 30, , , 0
+48, sunnyvale, 6, 30, 1408797, 682000, 10
 49, Sunnyvale, 6, 30, , , 0
 50, west babylon, 28, 60, , , 0
-51, austin, 45, 30, , , 0
+51, austin, 45, 30, 234747, 234747, 0
 52, Foster City, 6, 30, , , 0
 53, Edison, 26, 30, , , 0
 54, Tewksbury, 35, 60, , , 0
 55, Pittsburgh, 40, 90, , , 0
-56, San Diego, 6, 360, , , 0
-57, CUPERTINO, 6, 116, , , 0
+56, San Diego, 6, 360, 472216, 535000, 9
+57, CUPERTINO, 6, 116, 1535624, 1278000, 1
 58, Corvallis, 33, 60, , , 0
 59, Sunnyvale, 6, 60, , , 0
 60, Los Gatos, 6, 60, , , 0
 61, Heathrow, 11, 30, , , 0
-62, Mountain View, 6, 90, , , 0
+62, Mountain View, 6, 90, 717817, 478000, 11
 63, Sunnyvale, 6, 30, , , 0
-64, Sunnyvale, 6, 360, , , 0
+64, Sunnyvale, 6, 360, 857995, 550000, 4
 65, Sunnyvale, 6, 60, , , 0
 66, los altos, 6, 60, , , 0
-67, Mountain View, 6, 30, , , 0
+67, Mountain View, 6, 30, 891051, 891051, 0
 68, sunnyvale, 6, 60, , , 0
-69, San Ramon, 6, 30, , , 0
+69, San Ramon, 6, 30, 1004764, 760000, 4
 70, Jersey City, 26, 30, , , 0
 71, Beaverton, 33, 30, , , 0
 72, walnut, 6, 90, , , 0
-73, San Diego, 6, 30, , , 0
+73, San Diego, 6, 30, 707158, 525500, 2
 74, Belle Mead, 26, 90, , , 0
 75, Tucson, 4, 30, , , 0
 76, Plainsboro, 26, 60, , , 0
-77, Union city, 6, 60, , , 0
-78, SARATOGA, 6, 30, , , 0
+77, Union city, 6, 60, 710515, 811000, 8
+78, SARATOGA, 6, 30, 2155557, 1753000, 3
 79, Winnetka, 6, 360, , , 0
-80, cupertino, 6, 30, , , 0
+80, cupertino, 6, 30, 3787032, 3787032, 0
 81, Saratoga, 6, 100, , , 0
-82, Cupertino, 6, 60, , , 0
+82, Cupertino, 6, 60, 1553459, 879000, 11
 83, Cupertino, 6, 60, , , 0
-84, Ramsey, 26, 30, , , 0
+84, Ramsey, 26, 30, 407401, 407401, 0
 85, san francisco, 6, 360, , , 0
 86, Dayton, 26, 30, , , 0
 87, Santa Clara, 6, 30, , , 0
-88, cupertino, 6, 90, , , 0
+88, cupertino, 6, 90, 2388737, 2388737, 0
 89, CORONA, 6, 30, , , 0
-90, Fremont, 6, 30, , , 0
-91, Laguna Niguel, 6, 30, , , 0
+90, Fremont, 6, 30, 1975088, 1365000, 2
+91, Laguna Niguel, 6, 30, 893429, 484500, 13
 92, Castro Valley, 6, 30, , , 0
-93, Castro Valley, 6, 30, , , 0
-94, san jose, 6, 30, , , 0
-95, San Jose, 6, 30, , , 0
+93, Castro Valley, 6, 30, 950484, 720000, 13
+94, san jose, 6, 30, 875462, 658000, 13
+95, San Jose, 6, 30, 779124, 779124, 0
 96, Fremont, 6, 360, , , 0
 97, San Jose, 6, 30, , , 0
-98, San Jose, 6, 31, , , 0
+98, San Jose, 6, 31, 636346, 206000, 21
 99, fremont, 6, 60, , , 0
-100, Aurora, 15, 30, , , 0
-101, fremont, 6, 30, , , 0
+100, Aurora, 15, 30, 191311, 142000, 2
+101, fremont, 6, 30, 750269, 643500, 9
 102, Fremont, 6, 60, , , 0
-103, San Jose, 6, 5, , , 0
-104, Fremont, 6, 30, , , 0
+103, San Jose, 6, 5, 831572, 572500, 12
+104, Fremont, 6, 30, 742777, 600000, 9
 105, San Jose, 6, 100, , , 0
 106, santa clara, 6, 60, , , 0
-107, Milpitas, 6, 30, , , 0
-108, Fremont, 6, 30, , , 0
+107, Milpitas, 6, 30, 898696, 898696, 0
+108, Fremont, 6, 30, 434647, 329000, 13
 109, Fremont, 6, 222, , , 0
-110, MANALAPAN, 26, 90, , , 0
-111, NEW YORK, 28, 360, , , 0
-112, San Mateo, 6, 90, , , 0
-113, Prospect Heights, 15, 90, , , 0
+110, MANALAPAN, 26, 90, 430186, 405000, 3
+111, NEW YORK, 28, 360, 821689, 682500, 0
+112, San Mateo, 6, 90, 1316633, 1050000, 5
+113, Prospect Heights, 15, 90, 498044, 455000, 0
 114, San Jose, 6, 150, , , 0
-115, Simi Valley, 6, 90, , , 0
-116, Tampa, 11, 60, , , 0
-117, plainsboro, 26, 30, , , 0
+115, Simi Valley, 6, 90, 425259, 487000, 8
+116, Tampa, 11, 60, 323411, 204000, 10
+117, plainsboro, 26, 30, 169544, 131000, 6
 118, plainsboro, 26, 50, , , 0
 119, Fremont, 6, 30, , , 0
-120, Concord, 6, 30, , , 0
+120, Concord, 6, 30, 474136, 455000, 10
 121, San Jose, 6, 41, , , 0
 122, San Jose, 6, 60, , , 0
-123, santa clara, 6, 60, , , 0
+123, santa clara, 6, 60, 748346, 690000, 6
 124, San Jose, 6, 20, , , 0
 125, Fremont, 6, 90, , , 0
-126, Fremont, 6, 30, , , 0
-127, Franklin, 51, 360, , , 0
+126, Fremont, 6, 30, 536117, 411000, 4
+127, Franklin, 51, 360, 305242, 285000, 8
 128, Stockton, 6, 90, , , 0
-129, Turlock, 6, 60, , , 0
+129, Turlock, 6, 60, 138194, 103000, 23
 130, Palo Alto, 6, 300, , , 0
 131, mountain house, 6, 30, , , 0
-132, Dublin, 6, 30, , , 0
+132, Dublin, 6, 30, 685456, 732000, 9
 133, San Jose, 6, 60, , , 0
 134, San Ramon, 6, 50, , , 0
-135, Cupertino, 6, 30, , , 0
+135, Cupertino, 6, 30, 1039715, 720000, 12
 136, Plano, 45, 30, , , 0
 137, MADISON, 51, 60, , , 0
 138, San Jose, 6, 90, , , 0
@@ -114,10 +114,10 @@ id, city, state, donation, house_price, house_sold_at, years_sold
 146, Dublin, 6, 75, , , 0
 147, San Jose, 6, 30, , , 0
 148, San Jose, 6, 60, , , 0
-149, San Jose, 6, 30, , , 0
-150, Foster City, 6, 60, , , 0
-151, kendall park, 26, 30, , , 0
-152, Orangevale, 6, 90, , , 0
+149, San Jose, 6, 30, 707837, 501000, 11
+150, Foster City, 6, 60, 673250, 420000, 11
+151, kendall park, 26, 30, 353100, 381000, 4
+152, Orangevale, 6, 90, 343532, 343532, 0
 153, Hillsborough, 26, 90, , , 0
 154, SUNNYVALE, 6, 30, , , 0
 155, Oklahoma City, 32, 30, , , 0

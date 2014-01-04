@@ -62,7 +62,8 @@ def get_house_value(address, csz):
 	#Format of csz = "Saratoga, CA"
 	if(address == '' or csz == ''):
 		return address, csz, 0
-	params = urllib.urlencode({'zws-id':'X1-ZWz1bbf8u6dqff_a1050', 'address':address, 'citystatezip':csz})
+	token = "X1-ZWz1dp4nf26mff_10irx"
+	params = urllib.urlencode({'zws-id':token, 'address':address, 'citystatezip':csz})
 	url = "http://www.zillow.com/webservice/GetDeepSearchResults.htm?%s"
 	zillow_xml = urllib.urlopen(url%params).read()
 	root = ET.fromstring(zillow_xml)
