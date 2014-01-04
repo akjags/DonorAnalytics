@@ -1,7 +1,7 @@
 Current state:
 
 - Added script that does classification (3 donation amount classes) using an SVM.
-- Split data into training and testing randomely using 10 fold cross validation
+- The script splits data into training and testing randomely using 10 fold cross validation
 - Average cross validation accuracy is 60 percent (+- 25 percent)
   - E.g. on average, 6/10 samples are classified correcly
   - Model is shaky right now
