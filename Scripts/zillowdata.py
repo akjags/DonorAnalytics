@@ -56,13 +56,13 @@ states = {
 	"WY" : 52 ,
 	}
 
+token = "X1-ZWz1dp4nf26mff_10irx"
 def get_house_value(address, csz):
-	#This method returns a tuple (currValue, soldValue)
+	#This method returns a tuple (currValue, soldValue, years)
 	#Format of address = "14232 Shady Oak Ct"
 	#Format of csz = "Saratoga, CA"
 	if(address == '' or csz == ''):
 		return address, csz, 0
-	token = "X1-ZWz1dp4nf26mff_10irx"
 	params = urllib.urlencode({'zws-id':token, 'address':address, 'citystatezip':csz})
 	url = "http://www.zillow.com/webservice/GetDeepSearchResults.htm?%s"
 	zillow_xml = urllib.urlopen(url%params).read()
@@ -87,6 +87,16 @@ def get_house_value(address, csz):
 		years = timeSincePurchase.days/365
 	return currValue, soldValue, years
 
+def get_median_household_income(state, city):
+	params = urllib.urlencode({'zws-id':token, 'state':state, 'city':city})
+	url = "http://www.zillow.com/webservice/GetDemographics.htm?%s"
+	zillow_xml = urllib.urlopen(url%params).read()
+	root = ET.fromstring(zillow_xml)
+	for child in root.iter('attribute'):
+		if(child[0].text and child[0].text== "Median Household Income"):
+			return child[1][0][0].text
+	return ''
+
 filenames = ['Data/donor_data.csv', 'Data/donor_data2.csv']
 user_id = 0
 
@@ -95,7 +105,7 @@ for filename in filenames:
 	output = open('Data/donor_features.csv', 'w')
 	donations = f.readlines()[0].split('\r')
 	donations.pop(0)
-	output.write("id, city, state, donation, house_price, house_sold_at, years_sold\n")
+	output.write("id, city, state, donation, house_price, house_sold_at, years_sold, avg_city_income\n")
 	for line in donations:
 		elements = line.strip().split(',')
 		name = elements[1]
@@ -107,7 +117,8 @@ for filename in filenames:
 		if not addr or not city or not state:
 			continue
 		currVal,soldVal,years = get_house_value(addr, csz)
-		out = "%d, %s, %d, %s, %s, %s, %d\n"%(user_id, city, states.get(state, 0), amount, currVal, soldVal, years)
+		median_income = get_median_household_income(state, city)
+		out = "%d, %s, %d, %s, %s, %s, %d, %s\n"%(user_id, city, states.get(state, 0), amount, currVal, soldVal, years, median_income)
 		output.write(out)
 		user_id = user_id + 1
 	f.close()
