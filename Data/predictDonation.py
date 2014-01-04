@@ -3,7 +3,7 @@ import scipy
 import csv
 from sklearn import svm
 
-donorFeatures = np.loadtxt("donorAnalyticsFeatures.txt");
+donorFeatures = np.loadtxt("modelData1.txt");
 
 for i in range(len(donorFeatures[:,3])):
 
