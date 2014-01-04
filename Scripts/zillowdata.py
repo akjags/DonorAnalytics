@@ -37,7 +37,7 @@ user_id = 0
 
 for filename in filenames:
 	f = open(filename, 'r')
-	output = open('Data/donor_features2.csv', 'w')
+	output = open('Data/donor_features.csv', 'w')
 	donations = f.readlines()[0].split('\r')
 	donations.pop(0)
 	output.write("id, city, state, donation, house_price, house_sold_at, years_sold\n")
@@ -52,7 +52,6 @@ for filename in filenames:
 		if not addr or not city or not state:
 			continue
 		currVal,soldVal,years = get_house_value(addr, csz)
-		print (user_id, city, state, amount, currVal, soldVal, years)
 		out = "%d, %s, %s, %s, %s, %s, %d\n"%(user_id, city, state, amount, currVal, soldVal, years)
 		output.write(out)
 		user_id = user_id + 1
