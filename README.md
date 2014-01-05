@@ -1,8 +1,9 @@
 Current state:
 
-- Added SVM and LR script that does classification (3 donation amount classes).
+- Added SVM, LR, and RBM LR script that does classification (3 donation amount classes).
+  - RBM LR uses a Restricted Boltzmann Machine to synthesize hidden features using a neural network
 - The script splits data into training and testing randomely using 10 fold cross validation
-- Average cross validation accuracy is 70 percent for SVM, 60 percent for LR right now
+- Average cross validation accuracy is 70 percent for SVM, 60 percent for LR, and 68.75 percent for RBM LR right now
 
   
 Build a model to predict how much an individual is willing to donate to a given organization.
