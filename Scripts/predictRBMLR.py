@@ -57,4 +57,4 @@ rbmModel = classifier.fit(X_train,Y_train);
 
 print("Logistic regression using RBM synthesized features:\n%s\n" % (metrics.accuracy_score(Y_test, rbmModel.predict(X_test))))
 
-# 68.75 percent accuracy
+# 70.59 percent accuracy
