@@ -7,7 +7,7 @@ Current state:
   - 4. Simple Logistic Regression - 62 percent accuracy
 - RBM (Restricted Boltzmann Machine) is a model that is used to synthesize hidden features using a neural network
   - Combination with classifers greatly improves accuracy
-- The script splits data into training and testing randomely using 10 fold cross validation
+- The scripts split data into training and testing randomely
 
 Build a model to predict how much an individual is willing to donate to a given organization.
 Features to look at:
