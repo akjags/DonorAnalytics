@@ -51,7 +51,7 @@ rbm.batch_size=20;
 X_train, X_test, Y_train, Y_test = train_test_split(donorFeatures[:,0:3], donorFeatures[:,4], test_size=0.16, random_state=0)
 rbmModel = classifier.fit(X_train,Y_train);
 
-# Evaluation
+# Evaluate Model
 
 print("SVM using RBM synthesized features:\n%s\n" % (metrics.accuracy_score(Y_test, rbmModel.predict(X_test))))
 
