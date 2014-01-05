@@ -36,4 +36,4 @@ average_accuracy = np.percentile(scores,50);
 
 print("10 Fold Cross Validation Accuracy: %0.2f" % (average_accuracy * 100)) + "%";
 
-# 60 Percent Accuracy
+# 62 Percent Accuracy
