@@ -97,15 +97,15 @@ def get_median_household_income(state, city):
 			return child[1][0][0].text
 	return ''
 
-filenames = ['Data/donor_data.csv', 'Data/donor_data2.csv']
+filenames = ['Data/cleaned_data.csv', 'Data/cleaned_data2.csv','Data/akshayapatra_data.csv']
 user_id = 0
-
+file_id = 0
+output = open('Data/donor_features.csv', 'w')
+output.write("id, city, state, donation, house_price, house_sold_at, years_sold, avg_city_income, file_id\n")
 for filename in filenames:
 	f = open(filename, 'r')
-	output = open('Data/donor_features.csv', 'w')
-	donations = f.readlines()[0].split('\r')
+	donations = f.readlines()
 	donations.pop(0)
-	output.write("id, city, state, donation, house_price, house_sold_at, years_sold, avg_city_income\n")
 	for line in donations:
 		elements = line.strip().split(',')
 		name = elements[1]
@@ -118,8 +118,9 @@ for filename in filenames:
 			continue
 		currVal,soldVal,years = get_house_value(addr, csz)
 		median_income = get_median_household_income(state, city)
-		out = "%d, %s, %d, %s, %s, %s, %d, %s\n"%(user_id, city, states.get(state, 0), amount, currVal, soldVal, years, median_income)
+		out = "%d, %s, %d, %s, %s, %s, %d, %s, %d\n"%(user_id, city, states.get(state, 0), amount, currVal, soldVal, years, median_income,file_id)
 		output.write(out)
 		user_id = user_id + 1
+	file_id+=1
 	f.close()
 output.close()
