@@ -56,27 +56,36 @@ states = {
 	"WY" : 52 ,
 	}
 
-tokens = ["X1-ZWz1dp4nf26mff_10irx"]
+tokens = ["X1-ZWz1dp4nf26mff_10irx", "X1-ZWz1dp7lyq9l3f_34dhf", 
+	  "X1-ZWz1bbauzpdcej_35s1w", "X1-ZWz1bbf8u6dqff_a1050",
+	  "X1-ZWz1bbcxyvnfgr_1oefy", "X1-ZWz1dp7tuupszv_39zrb",
+	  "X1-ZWz1dp7pwshp1n_376md", "X1-ZWz1bbar1n58gb_38l6u",
+	  "X1-ZWz1bban3kx4i3_3bebs", "X1-ZWz1dp7xswxwy3_3csw9",
+	  "X1-ZWz1bbaj5ip0jv_3e7gq", "X1-ZWz1bbaf7ggwln_3h0lo",
+	  "X1-ZWz1c3me8mm13f_6ikyi", "X1-ZWz1dgexi5gjrf_7ew1d",
+	  ]
 def get_house_value(address, csz):
 	#This method returns a tuple (currValue, soldValue, years)
 	#Format of address = "14232 Shady Oak Ct"
 	#Format of csz = "Saratoga, CA"
 	if(address == '' or csz == ''):
 		return address, csz, 0
-	params = urllib.urlencode({'zws-id':tokens[0], 'address':address, 'citystatezip':csz})
-	url = "http://www.zillow.com/webservice/GetDeepSearchResults.htm?%s"
-	zillow_xml = urllib.urlopen(url%params).read()
-	root = ET.fromstring(zillow_xml)
-	# ADDED:kjag make sure that this works
-	# update the tokens array above with the list of tokens for karthik, rahul, akshay
-	for child in root.iter('code'):
-		if (child.text != 0):
-			tokens.pop()
-			params = urllib.urlencode({'zws-id':tokens[0], 'address':address, 'citystatezip':csz})
-			url = "http://www.zillow.com/webservice/GetDeepSearchResults.htm?%s"
-			zillow_xml = urllib.urlopen(url%params).read()
-			root = ET.fromstring(zillow_xml)
+
+	while True:
+		params = urllib.urlencode({'zws-id':tokens[0], 'address':address, 'citystatezip':csz})
+		url = "http://www.zillow.com/webservice/GetDeepSearchResults.htm?%s"
+		zillow_xml = urllib.urlopen(url%params).read()
+		root = ET.fromstring(zillow_xml)
+		# ADDED:kjag make sure that this works
+		should_break = False
+		for child in root.iter('code'):
+			if (child.text == 0):
+				should_break = True
+				break
+		if should_break:
 			break
+		else:
+			tokens.pop()
 		
 	currValue,soldValue,soldDate = '','',''
 	years = 0
