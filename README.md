@@ -1,3 +1,5 @@
+**THIS REPO IS NO LONGER CURRENT. Data was moved to a private repository**
+
 Current state:
 
 - Added SVM, LR, RBM LR, and RBM SVM scripts that do classification (3 donation amount classes)
